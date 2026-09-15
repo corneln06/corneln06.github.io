@@ -8,7 +8,7 @@ const projects = [
     points: [
       'Backend for a village management system built in Java, covering API design, data modeling, and database integration for cross-team collaboration with the frontend group.',
     ],
-    href: '',
+    href: 'https://github.com/corneln06/Cloverville-Village-Program',
   },
   {
     title: 'Restaurant Management Platform',
@@ -16,7 +16,7 @@ const projects = [
     points: [
       'A server-based restaurant management platform in Java, applying MVVM architecture, Observer and State design patterns, with multithreading for real-time concurrent operations.',
     ],
-    href: '',
+    href: 'https://github.com/corneln06/VIARestaurant',
   },
   {
     title: 'SOLUTEC Project Management System',
@@ -33,7 +33,7 @@ const projects = [
       'A personal finance app with a Spring Boot backend, OAuth-connected Tink open banking API, and PostgreSQL persistence.',
       'A PyTorch-based transaction categorizer that classifies expenses automatically, with no manual labeling required.',
     ],
-    href: '',
+    href: 'https://github.com/corneln06/Bank-Account-Tracker',
   },
   {
     title: 'Forum App',
@@ -41,7 +41,7 @@ const projects = [
     points: [
       'A modular forum app built with .NET Web API, Entity Framework Core, and Blazor, using a layered architecture that separates network and persistence concerns.',
     ],
-    href: '',
+    href: 'https://github.com/corneln06/ForumAssignment',
   },
 ]
 
