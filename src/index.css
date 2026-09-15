@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-minecraft: "Minecraft", sans-serif;
+  --font-minecraft-bold: "MinecraftBold", sans-serif;
+  --color-seagreen: seagreen;
+
+  /* Match the site's original breakpoints (mobile-first equivalents
+     of the old max-width media queries). */
+  --breakpoint-sm: 376px;
+  --breakpoint-md: 769px;
+  --breakpoint-lg: 1025px;
+
+  --animate-marquee: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@font-face {
+  font-family: "Minecraft";
+  src: url("/fonts/MinecraftRegular-Bmg3.otf");
+}
+
+@font-face {
+  font-family: "MinecraftBold";
+  src: url("/fonts/MinecraftBold-nMK1.otf");
+}
+
+html,
+body {
+  background-color: black;
+  color: white;
+  font-family: var(--font-minecraft);
+  margin: 0;
+  padding: 0;
+}
