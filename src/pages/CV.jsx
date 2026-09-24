@@ -137,7 +137,7 @@ export default function CV() {
               date="Mar 2026 – Present"
               techList={[tech.astro, tech.react]}
               points={[
-                'Built and shipped the Work-Pairs marketing website using Astro, Tailwind CSS v4, and daisyUI v5, delivering responsive layouts with custom typography and Lottie animations.',
+                'Built and deployed the Work-Pairs marketing website(workpairs.com / workpairs.dk) using Astro, Tailwind CSS v4, and daisyUI v5, delivering responsive layouts with custom typography and Lottie animations.',
                 'Designed end-to-end form submission infrastructure using Astro API routes and Resend, handling contact inquiries and candidate submissions in production.',
                 'Built a client intake questionnaire feature and a privacy policy page on the main Folkaet website using React, extending the frontend with new user-facing functionality.',
               ]}
